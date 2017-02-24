@@ -17,11 +17,11 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
-        facebook: /
+        twitter: https://twitter.com/tinyvane
+        facebook: https://www.facebook.com/tinyvane
         google-plus: /
         github: https://github.com/tinyvane
-        weibo: /
+        weibo: http://weibo.com/tinyvane
         rss: /
 
 # Widgets
@@ -29,7 +29,7 @@ widgets:
     - recent_posts
     - category
     - archive
-    #- tag
+    - tag
     - tagcloud
     - links
 
@@ -64,8 +64,8 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        山上: http://3toptop.top/
-        烟花易冷: http://hyblog.top
         JerrySher's blog: http://blog.jerryzhang.net/
+        山上: http://3toptop.top/
         水番林: http://sfantree.com/
         易世界: http://www.easyworld.top/
+        烟花巷陌ヾ: http://zjybk.top/
