@@ -8,8 +8,7 @@
     <% } else if (theme.comment.isso) { %>
         <span><a href="/<%= post.path %>#isso-thread"></a></span>
     <% } else if (theme.comment.changyan) { %>
-        <span class="cy-comment-count" sid="<%= post.date %>">0</span>
-        <span id = "sourceId::<%= post.date %>" class = "cy_cmt_count" >0</span>
+        <span id="sourceId::<%= post.date %>" class="cy_cmt_count"></span>
         <script id="cy_cmt_num" src="http://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cysTFexTx">
 </script>
     <% } %>
