@@ -1,0 +1,15 @@
+<% if (typeof(script) !== 'undefined' && script) { %>
+    <script>
+    var cloudTieConfig = {
+        url: document.location.href, 
+        <% if (page.disqusId) { %>
+        sourceId: "<%= page.urlname || page.path %>",
+        <% } %>
+        productKey: "945325a47341456b9e83466ccd97ca44",
+        target: "cloud-tie-wrapper"
+    };
+    </script>
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<% } else { %>
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<% } %>

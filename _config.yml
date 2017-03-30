@@ -41,11 +41,14 @@ search:
 
 # Comment
 comment:
+    changyan:
+    yungentie: true
     disqus: # enter disqus shortname here
-    duoshuo: wuliaole # enter duoshuo shortname here
+    duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
     facebook: # enter true to enable
     isso: # enter the domain name of your own comment isso server eg. comments.example.com
+    
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
@@ -67,8 +70,7 @@ miscellaneous:
         山上: http://3toptop.top/
         烟花易冷: http://hyblog.top
         JerrySher's blog: http://blog.jerryzhang.net/
+        Handa: http://www.hyblog.online
+        美丽应用: http://mlapp.cn
         水番林: http://sfantree.com/
         易世界: http://www.easyworld.top/
-        Handa: http://www.hyblog.online
-        Luca: http://104.224.176.70/
-        美丽应用: http://mlapp.cn

@@ -2,10 +2,14 @@
     <%- partial('comment/disqus', { script: true }) %>
 <% } else if (theme.comment.duoshuo) { %>
     <%- partial('comment/duoshuo', { script: true }) %>
+<% } else if (theme.comment.yungentie) { %>
+    <%- partial('comment/yungentie', { script: true }) %>
 <% } else if (theme.comment.youyan) { %>
     <%- partial('comment/youyan', { script: true }) %>
 <% } else if (theme.comment.facebook) { %>
     <%- partial('comment/facebook', { script: true }) %>
 <% } else if (theme.comment.isso) { %>
     <%- partial('comment/isso', { script: true }) %>
+<% } else if (theme.comment.changyan) { %>
+    <%- partial('comment/changyan', { script: true }) %>
 <% } %>
