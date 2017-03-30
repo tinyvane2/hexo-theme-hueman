@@ -41,7 +41,8 @@ search:
 
 # Comment
 comment:
-    changyan: true # enter the domain name of your own comment isso server eg. comments.example.com
+    changyan:
+    yungentie: true
     disqus: # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
