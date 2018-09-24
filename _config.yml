@@ -41,9 +41,9 @@ search:
 
 # Comment
 comment:
-    changyan:
-    yungentie: true
-    disqus: # enter disqus shortname here
+    changyan: # enter changyan shortname here
+    yungentie: # enter yungentie shortname here
+    disqus: leave-us-alone
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
     facebook: # enter true to enable
